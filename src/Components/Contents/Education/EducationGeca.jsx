@@ -5,10 +5,10 @@ function EducationGeca() {
         <div className="education-section">
             <div className="education-header">
                 <h2>B.Tech. in Computer Science – Government College of Engineering, Aurangabad</h2>
-                <span className="education-date">11/2022 – Present</span>
+                <span className="education-date">11/2022 – 05/2026</span>
             </div>
             <p className='educationPara'>
-                Three years (and counting) of deciphering cryptic compiler errors, surviving all-nighters, and discovering that Stack Overflow is, in fact, a legitimate study resource. At GCE Aurangabad, I’ve become a professional at turning “<span style={{ color: '#725CAD' }}>it works on my machine</span>” into a lifestyle.
+                Four years of deciphering cryptic compiler errors, surviving all-nighters, and discovering that Stack Overflow is, in fact, a legitimate study resource. At GCE Aurangabad, I’ve become a professional at turning “<span style={{ color: '#725CAD' }}>it works on my machine</span>” into a lifestyle.
             </p>
             <p className='educationPara'>
                 Joined <span style={{ color: '#D1A980' }}>HackSlash</span> (the college’s coding club) and <span style={{ color: '#D1A980' }}>Google Developer Student Club</span> — organized events, mentored juniors and learned that "refreshments provided" is the best way to fill a room.

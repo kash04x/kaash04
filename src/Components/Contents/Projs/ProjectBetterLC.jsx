@@ -11,7 +11,7 @@ function ProjectBetterLC() {
                 Chrome extension for LeetCode addicts. Overlays and injects company tags right on problem pages, assisting you during interview prep. DOM magic makes it all seamless.
             </p>
             <p className='educationPara'>
-                Built this to avoid spending bucks just for the company tags list. Turns out, thousands of users were tired of that too. Managed to get <span style={{ color: '#D1A980' }}>more than 2,500 active users</span>!
+                Built this to avoid paying just to see company tags. Turns out, plenty of folks were tired of that too. Currently sitting at <span style={{ color: '#D1A980' }}>6,000+ active users</span>!
             </p>
         </div>
     );

@@ -75,6 +75,10 @@ body,
   margin: 0;
 }
 
+.experienceEntry.nonInteractive {
+  cursor: default;
+}
+
 .experienceEntry.active {
   background-color: rgba(0, 123, 255, 0.08);
   color: #007bff;
@@ -223,8 +227,8 @@ body,
     flex: 1 1 0;
     min-height: 0;
   }
-  /* Only the skills fieldset should grow */
-  .sidemenuItem[style*="flex-direction: column"] {
+  /* Only the skills fieldset should grow on desktop */
+  .skillsFieldset {
     flex: 1 1 0 !important;
     min-height: 0 !important;
     display: flex;
@@ -274,11 +278,19 @@ body,
     margin: 0;
     padding: 10px 0 0 0;
   }
+  .skillsFieldset {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
   .scrollableSkillsList {
-    flex: 1 1 0;
-    min-height: 0;
+    flex: 0 0 auto;
+    min-height: 200px;
+    max-height: 260px;
     overflow-y: auto;
-    max-height: calc(100dvh - 16px);
+  }
+  .sidemenuContainer {
+    overflow-y: auto;
   }
   .contentBox {
     margin-left: 8px;
